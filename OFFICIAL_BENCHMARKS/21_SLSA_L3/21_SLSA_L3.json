@@ -1,0 +1,21 @@
+{
+ "framework": "21_SLSA_L3",
+ "title": "SLSA v1.0 Build Level 3",
+ "project": "CORE_BIOIMAGE_IO",
+ "basis": [
+  {
+   "check": "05_git_health",
+   "status": "PASS",
+   "observed": "head=2cc14c1a6b477486ce936978c21730d57ba1966e commits=1 clea"
+  },
+  {
+   "check": "04_sbom_cyclonedx",
+   "status": "PASS",
+   "observed": "CycloneDX 1.5 components=272"
+  }
+ ],
+ "verdict": "CONTROLS EVIDENCED \u2014 all basis checks PASS",
+ "pax_provenance": "Run ID loiskleinner/pax-benchmark-runner v3, 2026-10-02, Kaggle T4 x2 (2x 16GB VRAM), Ubuntu 22.04, Python 3.12. These are PAX L5 Narrow L2 General 27B model-level results \u2014 shared model component, not this project's verdict.",
+ "bench_sha3": "f1482a4f0d36d1119c4adbcd139977baa6ef16e6b8902dccca5625a628e37ae4",
+ "register_sha3": "d938b7e176874d904baf69380985d74dd316beb0199a85e74574adae798e5108"
+}
